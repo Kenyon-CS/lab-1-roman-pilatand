@@ -30,6 +30,12 @@ public:
     // Function to print the Roman numeral
     void printRoman() const;
 
+    // Function to set the integer
+    void setInt(int value);
+
+    //Function to set the roman numeral
+    void setRoman(std::string numeral);
+
     // Getter for the integer value
     int getInt() const;
 
